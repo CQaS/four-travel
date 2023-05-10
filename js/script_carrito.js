@@ -19,7 +19,7 @@ const traerFotos = () => {
         });
 }
 
-const mostrarEnPagina = (lista) => { //LAS FUNCTION RECIBE LOS DATOS
+const mostrarEnCarrito = (lista) => { //LAS FUNCTION RECIBE LOS DATOS
     let img
     lista.forEach(l => { //CON EL FOREACH( SIMILAR AL FOR O WHILE ) RECORRE CADA UN DE LAS FOTOS
 

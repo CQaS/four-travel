@@ -105,11 +105,7 @@
 }
 
 .tarjetas {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-areas:
-        "car1 card2 card3"
-    ;
+    
     width: 100%;    
     max-width: 1100px;
     justify-content: space-between;
@@ -118,6 +114,12 @@
     background-color: white;
     gap: 2em;
     grid-area: tarjetas;
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+        "car1 card2 card3"
+    ;
 
 }
 
